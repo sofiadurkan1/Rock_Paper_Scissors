@@ -17,10 +17,26 @@ body {
     transform: scale(1, 2);
   }
   .results {
+    font-size: 2rem;
     margin-top: 1rem;
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     align-items: center;
+  }
+
+  .result-score{
+      margin-left: .1rem;
+      font-size: 2rem;
+      color:#333
+  }
+
+  .result-selection{
+      opacity: .5;
+  }
+
+  .result-selection.winner{
+      opacity:1;
+      font-size:3rem;
   }
